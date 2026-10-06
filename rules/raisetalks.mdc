@@ -1,0 +1,17 @@
+---
+description: Guardrails for the RaiseTalks MCP tools (data rooms, startup catalog, investor pipeline). Apply when calling any raisetalks tool.
+alwaysApply: false
+---
+
+When using the `raisetalks` MCP tools:
+
+- Read the current data (`get_data_room_section`, `list_pipeline`) before you change it.
+- `update_team`, the list fields of `update_market_product`, and `add_pipeline_note` **replace** what is stored. Merge the user's change into the current data and send the whole value back.
+- Use only facts the user supplied. Never invent metrics, names or numbers to fill a field.
+- If a dropdown value is rejected, retry with one of the allowed values the error lists.
+- Confirm with the user before calling any `delete_*` tool.
+- Files cannot be uploaded through MCP. Use `prepare_pitch_deck_upload` / `prepare_document_upload` and hand the user the returned link.
+- If a write returns an upgrade message, relay it and stop. Do not retry.
+- For investors, a sparse `get_data_room` result means limited access, not missing data. Say that.
+
+See the `raisetalks` skill for the full workflow.

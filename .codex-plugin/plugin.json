@@ -1,0 +1,35 @@
+{
+  "name": "raisetalks",
+  "version": "1.0.0",
+  "description": "Connect to RaiseTalks: founders build and update their data room, investors browse startups and manage their deal pipeline.",
+  "author": { "name": "RaiseTalks", "email": "cto@raisetalks.ai", "url": "https://raisetalks.com" },
+  "homepage": "https://raisetalks.com",
+  "repository": "https://github.com/RaiseTalks/raisetalks-plugin",
+  "license": "MIT",
+  "keywords": ["raisetalks", "fundraising", "data-room", "venture-capital", "dealflow", "mcp"],
+  "skills": "./skills/",
+  "mcpServers": {
+    "raisetalks": {
+      "type": "streamable-http",
+      "url": "https://mcp.raisetalks.com/mcp"
+    }
+  },
+  "interface": {
+    "displayName": "RaiseTalks",
+    "shortDescription": "Data rooms, startup catalog and investor pipeline",
+    "longDescription": "Founders read and update their RaiseTalks data room (company, team, market, financials, roadmap, partners and backers) and get upload links for pitch decks and documents. Investors browse the startup catalog, open data rooms they have access to, and move startups through their deal pipeline. Sign in with your existing RaiseTalks account.",
+    "developerName": "RaiseTalks",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://raisetalks.com",
+    "privacyPolicyURL": "https://raisetalks.com/privacy-policy",
+    "termsOfServiceURL": "https://raisetalks.com/terms-of-service",
+    "defaultPrompt": [
+      "Show me what's missing from my data room",
+      "Add our new CTO to the team section",
+      "List the startups in my pipeline that are in due diligence"
+    ],
+    "composerIcon": "./assets/logo.png",
+    "logo": "./assets/logo.png"
+  }
+}

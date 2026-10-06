@@ -1,0 +1,11 @@
+{
+  "name": "raisetalks",
+  "description": "Connect Claude to RaiseTalks: founders build and update their data room, investors browse startups and manage their deal pipeline.",
+  "version": "1.0.0",
+  "author": { "name": "RaiseTalks", "email": "cto@raisetalks.ai" },
+  "homepage": "https://raisetalks.com",
+  "repository": "https://github.com/RaiseTalks/raisetalks-plugin",
+  "license": "MIT",
+  "keywords": ["raisetalks", "fundraising", "data-room", "venture-capital", "dealflow", "mcp"],
+  "mcpServers": "./.mcp.json"
+}

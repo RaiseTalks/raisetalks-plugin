@@ -1,0 +1,17 @@
+{
+  "name": "raisetalks",
+  "owner": {
+    "name": "RaiseTalks",
+    "email": "cto@raisetalks.ai"
+  },
+  "metadata": {
+    "description": "Official RaiseTalks plugin for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "raisetalks",
+      "source": "./",
+      "description": "RaiseTalks data rooms, startup catalog and investor pipeline."
+    }
+  ]
+}
