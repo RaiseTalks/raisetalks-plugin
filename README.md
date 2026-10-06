@@ -64,6 +64,7 @@ Go to **Settings → Connectors → Add custom connector** and enter `https://mc
 | `.codex-plugin/plugin.json`, `.agents/plugins/marketplace.json` | ChatGPT / Codex plugin manifest (server address inline) and marketplace entry |
 | `.claude-plugin/plugin.json`, `.claude-plugin/marketplace.json` | Claude Code plugin manifest and marketplace entry |
 | `mcp.json` / `.mcp.json` | Hosted server address (Cursor / Claude Code formats) |
+| `dist/raisetalks-openai-plugin.zip` | Upload package for platform.openai.com/plugins (portable Agent Plugins layout). Rebuild with `python3 scripts/build-openai-package.py` after changing `.codex-plugin/plugin.json`, `skills/` or `assets/` |
 | `rules/raisetalks.mdc` | Cursor rule with the tools' guardrails |
 | `skills/raisetalks/SKILL.md` | How to use the tools well (Cursor, Codex and Claude Code) |
 
