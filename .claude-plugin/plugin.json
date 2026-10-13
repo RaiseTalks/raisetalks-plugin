@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": { "name": "RaiseTalks", "email": "cto@raisetalks.ai" },
   "homepage": "https://raisetalks.com",
+  "privacyPolicyUrl": "https://raisetalks.com/privacy-policy",
   "repository": "https://github.com/RaiseTalks/raisetalks-plugin",
   "license": "MIT",
   "keywords": ["raisetalks", "fundraising", "data-room", "venture-capital", "dealflow", "mcp"],
