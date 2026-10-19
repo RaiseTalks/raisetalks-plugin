@@ -16,14 +16,15 @@
   },
   "interface": {
     "displayName": "RaiseTalks",
-    "shortDescription": "Data rooms, startup catalog and investor pipeline",
+    "shortDescription": "Startup data rooms & deals",
     "longDescription": "Founders read and update their RaiseTalks data room (company, team, market, financials, roadmap, partners and backers) and get upload links for pitch decks and documents. Investors browse the startup catalog, open data rooms they have access to, and move startups through their deal pipeline. Sign in with your existing RaiseTalks account.",
     "developerName": "RaiseTalks",
-    "category": "Productivity",
+    "category": "Finance",
     "capabilities": ["Read", "Write"],
     "websiteURL": "https://raisetalks.com",
     "privacyPolicyURL": "https://raisetalks.com/privacy-policy",
     "termsOfServiceURL": "https://raisetalks.com/terms-of-service",
+    "supportURL": "https://raisetalks.com/support",
     "defaultPrompt": [
       "Show me what's missing from my data room",
       "Add our new CTO to the team section",
